@@ -16,7 +16,7 @@ end
 require_relative "video"
 require_relative "twilio"
 
-DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/blog.db")
+DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/video_paper.db")
 DataMapper.finalize
 Video.auto_upgrade!
 
@@ -51,7 +51,7 @@ post '/videos' do
   $twilio.messages.create(
     from: '+1-484-685-0584',
     to: params["From"],
-    body: 'Alright your video is processed and ready to go!'
+    body: 'Alright your video is processed and should be coming out of the printer soon!'
   )
 
   response.to_json
