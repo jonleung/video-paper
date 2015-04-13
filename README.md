@@ -1,5 +1,6 @@
 Made a fun weekend side project: VideoPaper. Send videos through physical paper!
 
+LIVE DEMO: 
 Open this up in one tab
 http://mew.hackedu.us:1121/printer
 
