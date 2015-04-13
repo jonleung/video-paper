@@ -12,6 +12,7 @@ gem 'dm-migrations'
 gem 'dm-constraints'
 gem 'dm-sqlite-adapter'
 gem 'sqlite3'
+gem 'thin'
 
 gem 'rqrcode'
 gem 'httparty'
