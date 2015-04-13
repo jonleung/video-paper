@@ -1,3 +1,15 @@
+Made a fun weekend side project: VideoPaper. Send videos through physical paper!
+
+Open this up in one tab
+http://mew.hackedu.us:1121/printer
+
+(to get this to auto-print, see directions inside of it)
+
+And open this in another tab
+http://mew.hackedu.us:1121/scanner
+
+===============
+
 Phone Client
 1) Send video from phone to server
 
