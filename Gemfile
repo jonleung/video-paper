@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+# encoding: utf-8
+
+# Gemfile
+source :rubygems
 
 gem 'sinatra'
 gem 'sinatra-contrib', git: 'git@github.com:sinatra/sinatra-contrib.git'
